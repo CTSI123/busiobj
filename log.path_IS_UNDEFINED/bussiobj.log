@@ -1,0 +1,598 @@
+08:39:07.684 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7c83dc97: startup date [Tue Jul 24 08:39:07 CST 2018]; root of context hierarchy
+08:39:10.371 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+08:39:10.527 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9657ebad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+08:39:11.402 [main] INFO  cn.com.ctsi.busiobj.BusiobjApplication - The following profiles are active: dev
+08:39:11.449 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b7c4869: startup date [Tue Jul 24 08:39:11 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7c83dc97
+08:39:15.667 [main] INFO  o.s.b.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'websocketContainerCustomizer' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$JettyWebSocketConfiguration; factoryMethodName=websocketContainerCustomizer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/websocket/servlet/WebSocketServletAutoConfiguration$JettyWebSocketConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration; factoryMethodName=websocketContainerCustomizer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/websocket/servlet/WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration.class]]
+08:39:17.325 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=c496a87b-5985-375c-809b-2d60c47b52b5
+08:39:17.356 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+08:39:17.716 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7a3de8b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+08:39:17.903 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9657ebad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+08:39:18.700 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @21482ms to org.eclipse.jetty.util.log.Slf4jLog
+08:39:19.341 [main] INFO  o.s.b.w.e.jetty.JettyServletWebServerFactory - Server initialized with port: 8182
+08:39:19.341 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_171-b11
+08:39:19.434 [main] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+08:39:19.434 [main] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+08:39:19.450 [main] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+08:39:19.466 [main] INFO  o.e.j.server.handler.ContextHandler.application - Initializing Spring embedded WebApplicationContext
+08:39:19.466 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8017 ms
+08:39:19.856 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServletRegistration mapped to [/*]
+08:39:19.872 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+08:39:19.872 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+08:39:19.919 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+08:39:19.919 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+08:39:19.934 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+08:39:19.934 [main] INFO  org.eclipse.jetty.server.handler.ContextHandler - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@7c29adc8{application,/bussinessData,[file:///C:/Users/admin/AppData/Local/Temp/jetty-docbase.2150148942513039605.8182/],AVAILABLE}
+08:39:19.934 [main] INFO  org.eclipse.jetty.server.Server - Started @22717ms
+08:39:20.278 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing FeignContext-PermissionNewWeb: startup date [Tue Jul 24 08:39:20 CST 2018]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b7c4869
+08:39:20.419 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+08:39:21.622 [main] INFO  org.springframework.aop.framework.CglibAopProxy - Final method [protected final java.sql.Connection org.springframework.jdbc.core.support.JdbcDaoSupport.getConnection() throws org.springframework.jdbc.CannotGetJdbcConnectionException] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance.
+08:39:21.622 [main] INFO  org.springframework.aop.framework.CglibAopProxy - Final method [protected final void org.springframework.jdbc.core.support.JdbcDaoSupport.releaseConnection(java.sql.Connection)] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance.
+08:39:21.622 [main] INFO  org.springframework.aop.framework.CglibAopProxy - Final method [protected final org.springframework.jdbc.support.SQLExceptionTranslator org.springframework.jdbc.core.support.JdbcDaoSupport.getExceptionTranslator()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance.
+08:39:21.637 [main] INFO  org.springframework.aop.framework.CglibAopProxy - Final method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setJdbcTemplate(org.springframework.jdbc.core.JdbcTemplate)] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance.
+08:39:21.637 [main] INFO  org.springframework.aop.framework.CglibAopProxy - Final method [public final org.springframework.jdbc.core.JdbcTemplate org.springframework.jdbc.core.support.JdbcDaoSupport.getJdbcTemplate()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance.
+08:39:21.637 [main] INFO  org.springframework.aop.framework.CglibAopProxy - Final method [public final void org.springframework.jdbc.core.support.JdbcDaoSupport.setDataSource(javax.sql.DataSource)] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance.
+08:39:21.637 [main] INFO  org.springframework.aop.framework.CglibAopProxy - Final method [public final javax.sql.DataSource org.springframework.jdbc.core.support.JdbcDaoSupport.getDataSource()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance.
+08:39:21.653 [main] WARN  org.springframework.aop.framework.CglibAopProxy - Unable to proxy interface-implementing method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] because it is marked as final: Consider using interface-based JDK proxies instead!
+08:39:21.653 [main] INFO  org.springframework.aop.framework.CglibAopProxy - Final method [public final void org.springframework.dao.support.DaoSupport.afterPropertiesSet() throws java.lang.IllegalArgumentException,org.springframework.beans.factory.BeanInitializationException] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance.
+08:39:21.669 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing FeignContext-MainWebApp: startup date [Tue Jul 24 08:39:21 CST 2018]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b7c4869
+08:39:21.731 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+08:39:22.122 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+08:39:22.122 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+08:39:22.153 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+08:39:22.153 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+08:39:22.419 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+08:39:22.840 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b7c4869: startup date [Tue Jul 24 08:39:11 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7c83dc97
+08:39:22.997 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/data/create],methods=[POST]}" onto public cn.com.ctsi.busiobj.bean.base.BaseResponse<java.lang.Integer> cn.com.ctsi.busiobj.controller.DataController.createData(cn.com.ctsi.busiobj.bean.request.busiobj.data.CreateTemplateDataRequest,org.springframework.validation.BindingResult)
+08:39:23.012 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/data/delete],methods=[POST]}" onto public cn.com.ctsi.busiobj.bean.base.BaseResponseNoBody cn.com.ctsi.busiobj.controller.DataController.deleteData(cn.com.ctsi.busiobj.bean.request.busiobj.data.DeleteTemplateDataRequest,org.springframework.validation.BindingResult)
+08:39:23.012 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/data/update],methods=[POST]}" onto public cn.com.ctsi.busiobj.bean.base.BaseResponse cn.com.ctsi.busiobj.controller.DataController.updateData(cn.com.ctsi.busiobj.bean.request.busiobj.data.UpdateTemplateDataRequest,org.springframework.validation.BindingResult)
+08:39:23.012 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/data/queryById],methods=[POST]}" onto public cn.com.ctsi.busiobj.bean.base.BaseResponse<cn.com.ctsi.busiobj.bean.response.busiobj.BODataQueryByIdRes> cn.com.ctsi.busiobj.controller.DataController.queryDataById(cn.com.ctsi.busiobj.bean.request.busiobj.data.QueryTemplateDataByIdRequest,org.springframework.validation.BindingResult)
+08:39:23.012 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/data/queryList],methods=[POST]}" onto public cn.com.ctsi.busiobj.bean.base.BaseResponse<cn.com.ctsi.busiobj.bean.response.busiobj.BODataQueryListRes> cn.com.ctsi.busiobj.controller.DataController.queryDataList(cn.com.ctsi.busiobj.bean.request.busiobj.data.QueryTemplateDataListRequest,org.springframework.validation.BindingResult)
+08:39:23.012 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/basis/department/get],methods=[POST]}" onto public cn.com.ctsi.busiobj.bean.base.BaseResponse<java.lang.String> cn.com.ctsi.busiobj.controller.DepartmentController.getDeptName(cn.com.ctsi.busiobj.bean.base.GetDepartmentNameReq,org.springframework.validation.BindingResult)
+08:39:23.028 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/basis/department/queryTree],methods=[POST]}" onto public cn.com.ctsi.busiobj.bean.base.DepQueryResponse cn.com.ctsi.busiobj.controller.DepartmentController.queryTree(cn.com.ctsi.busiobj.bean.base.GetTreeReq,org.springframework.validation.BindingResult)
+08:39:23.028 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/basis/employee/queryEmployeeTree/{entId}/{mdn}],methods=[GET]}" onto public cn.com.ctsi.busiobj.bean.base.QueryWithEmpRes cn.com.ctsi.busiobj.controller.EmployeeController.queryEmployeeTree(java.lang.Integer,java.lang.String)
+08:39:23.028 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/basis/employee/queryEmployeeName/{userIds}],methods=[GET]}" onto public cn.com.ctsi.busiobj.bean.base.BaseResponse<java.lang.String> cn.com.ctsi.busiobj.controller.EmployeeController.queryEmployeeName(java.lang.String) throws java.lang.Exception
+08:39:23.028 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/upload/file/{entId}/{columnName}],methods=[POST]}" onto public cn.com.ctsi.busiobj.bean.base.BaseResponse<cn.com.ctsi.busiobj.bean.response.busiobj.BOFileResponse> cn.com.ctsi.busiobj.controller.FileUploadController.uploadFile(org.springframework.web.multipart.MultipartFile[],java.lang.Integer,java.lang.String)
+08:39:23.043 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/table/create],methods=[POST]}" onto public cn.com.ctsi.busiobj.bean.base.BaseResponse<java.lang.Integer> cn.com.ctsi.busiobj.controller.TableController.createTable(cn.com.ctsi.busiobj.bean.request.busiobj.table.CreateTemplateTableRequest,org.springframework.validation.BindingResult)
+08:39:23.043 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/table/queryApp],methods=[POST]}" onto public cn.com.ctsi.busiobj.bean.base.BaseResponse<cn.com.ctsi.busiobj.bean.response.busiobj.BOTableQueryAppRes> cn.com.ctsi.busiobj.controller.TableController.queryTableApp(cn.com.ctsi.busiobj.bean.request.busiobj.table.QueryTemplateTableRequest,org.springframework.validation.BindingResult) throws java.lang.Exception
+08:39:23.043 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/table/delete],methods=[POST]}" onto public cn.com.ctsi.busiobj.bean.base.BaseResponse cn.com.ctsi.busiobj.controller.TableController.deleteTable(cn.com.ctsi.busiobj.bean.request.busiobj.table.DeleteTemplateTableRequest,org.springframework.validation.BindingResult)
+08:39:23.043 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/table/queryWeb],methods=[POST]}" onto public cn.com.ctsi.busiobj.bean.base.BaseResponse<cn.com.ctsi.busiobj.bean.response.busiobj.BOTableQueryWebRes> cn.com.ctsi.busiobj.controller.TableController.queryTableWeb(cn.com.ctsi.busiobj.bean.request.busiobj.table.QueryTemplateTableRequest,org.springframework.validation.BindingResult) throws java.lang.Exception
+08:39:23.043 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/table/update],methods=[POST]}" onto public cn.com.ctsi.busiobj.bean.base.BaseResponse cn.com.ctsi.busiobj.controller.TableController.updateTable(cn.com.ctsi.busiobj.bean.request.busiobj.table.UpdateTemplateTableReuest,org.springframework.validation.BindingResult)
+08:39:23.059 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/table/query],methods=[POST]}" onto public cn.com.ctsi.busiobj.bean.base.BaseResponse<cn.com.ctsi.busiobj.bean.response.busiobj.BOTableQueryRes> cn.com.ctsi.busiobj.controller.TableController.queryTable(cn.com.ctsi.busiobj.bean.request.busiobj.table.QueryTemplateTableRequest,org.springframework.validation.BindingResult) throws java.lang.Exception
+08:39:23.059 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test],methods=[GET]}" onto public java.lang.String cn.com.ctsi.busiobj.controller.TestController.test()
+08:39:23.075 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+08:39:23.075 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+08:39:23.215 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+08:39:23.215 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+08:39:25.418 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+08:39:25.418 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+08:39:25.418 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+08:39:25.418 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+08:39:25.418 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+08:39:25.434 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+08:39:25.481 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+08:39:25.481 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=b7c4869,type=ConfigurationPropertiesRebinder]
+08:39:25.496 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+08:39:25.512 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 0
+08:39:25.543 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+08:39:25.825 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+08:39:26.684 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+08:39:26.684 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+08:39:27.074 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+08:39:27.074 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+08:39:27.418 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+08:39:27.684 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+08:39:27.684 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+08:39:27.684 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+08:39:27.684 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+08:39:27.684 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+08:39:27.684 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+08:39:27.684 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+08:39:28.121 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+08:39:28.121 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+08:39:28.121 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+08:39:28.121 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1532392768121 with initial instances count: 8
+08:39:28.137 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application BusiObj with eureka with status UP
+08:39:28.137 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1532392768137, current=UP, previous=STARTING]
+08:39:28.137 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_BUSIOBJ/192.168.100.72:BusiObj:8182: registering service...
+08:39:28.168 [main] INFO  o.e.j.server.handler.ContextHandler.application - Initializing Spring FrameworkServlet 'dispatcherServlet'
+08:39:28.168 [main] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+08:39:28.215 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_BUSIOBJ/192.168.100.72:BusiObj:8182 - registration status: 204
+08:39:28.215 [main] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+08:39:28.231 [main] INFO  o.e.j.server.handler.ContextHandler.application - Initializing Spring FrameworkServlet 'dispatcherServletRegistration'
+08:39:28.231 [main] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServletRegistration': initialization started
+08:39:28.231 [main] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServletRegistration': initialization completed in 0 ms
+08:39:28.293 [main] INFO  org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@1578fa9{HTTP/1.1,[http/1.1]}{0.0.0.0:8182}
+08:39:28.309 [main] INFO  o.s.boot.web.embedded.jetty.JettyWebServer - Jetty started on port(s) 8182 (http/1.1) with context path '/bussinessData'
+08:39:28.309 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8182
+08:39:28.309 [main] INFO  cn.com.ctsi.busiobj.BusiobjApplication - Started BusiobjApplication in 25.359 seconds (JVM running for 31.096)
+08:40:37.465 [jetty-25] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [ctr_0] around [class cn.com.ctsi.busiobj.controller.TableController].[queryTable]
+08:40:37.468 [jetty-25] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [ctr_0] arg[0]: QueryTemplateTableRequest{entid=36, tableIds='358'}
+08:40:37.468 [jetty-25] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [ctr_0] arg[1]: org.springframework.validation.BeanPropertyBindingResult: 0 errors
+08:40:37.841 [jetty-25] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:40:37.849 [jetty-25] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_0] around [class cn.com.ctsi.busiobj.service.impl.BusiTableServiceImpl].[queryCdmTemplateTable]
+08:40:37.849 [jetty-25] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_0] arg[0]: QueryTemplateTableRequest{entid=36, tableIds='358'}
+08:40:38.150 [jetty-25] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing SpringClientFactory-MainWebApp: startup date [Tue Jul 24 08:40:38 CST 2018]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b7c4869
+08:40:38.235 [jetty-25] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+08:40:38.510 [jetty-25] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: MainWebApp.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+08:40:38.535 [jetty-25] INFO  com.netflix.util.concurrent.ShutdownEnabledTimer - Shutdown hook installed for: NFLoadBalancer-PingTimer-MainWebApp
+08:40:38.706 [jetty-25] INFO  com.netflix.loadbalancer.BaseLoadBalancer - Client: MainWebApp instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=MainWebApp,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+08:40:38.727 [jetty-25] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+08:40:38.796 [jetty-25] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: MainWebApp.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+08:40:38.799 [jetty-25] INFO  c.n.loadbalancer.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client MainWebApp initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=MainWebApp,current list of Servers=[192.168.0.45:20000],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.0.45:20000;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@3762afb
+08:40:39.231 [jetty-25] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_1] around [class cn.com.ctsi.busiobj.service.impl.CdmApiServiceImpl].[jointCdmTemplateTableReq]
+08:40:39.231 [jetty-25] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_1] arg[0]: QueryTemplateTableRequest{entid=36, tableIds='358'}
+08:40:39.232 [jetty-25] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_1] arg[1]: 6b85b0848b104b54a2ba6b7999591ebe
+08:40:39.233 [jetty-25] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_1] arg[2]: [per_info_1]
+08:40:39.243 [jetty-25] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_1] response: CdmTemplateTableQueryReq{tableNames=[per_info_1], tableIds='358'}
+08:40:39.243 [jetty-25] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_2] around [class cn.com.ctsi.busiobj.service.impl.CdmApiServiceImpl].[sendQueryCdmTemplateTableReq]
+08:40:39.243 [jetty-25] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_2] arg[0]: CdmTemplateTableQueryReq{tableNames=[per_info_1], tableIds='358'}
+08:40:39.363 [jetty-25] ERROR cn.com.ctsi.busiobj.service.impl.CdmApiServiceImpl - 调用cdm接口查询业务数据表失败,405 Method Not Allowed,请求为CdmTemplateTableQueryReq{tableNames=[per_info_1], tableIds='358'}
+08:40:39.367 [jetty-25] ERROR cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_2] throw error
+java.lang.Exception: 调用cdm接口查询业务数据表失败,405 Method Not Allowed
+	at cn.com.ctsi.busiobj.service.impl.CdmApiServiceImpl.sendQueryCdmTemplateTableReq(CdmApiServiceImpl.java:155)
+	at cn.com.ctsi.busiobj.service.impl.CdmApiServiceImpl$$FastClassBySpringCGLIB$$fc127289.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at cn.com.ctsi.busiobj.aop.logger.AbstractLogAspect.doAround(AbstractLogAspect.java:19)
+	at cn.com.ctsi.busiobj.aop.logger.ServiceLogAspect.aroundController(ServiceLogAspect.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.com.ctsi.busiobj.service.impl.CdmApiServiceImpl$$EnhancerBySpringCGLIB$$bd451439.sendQueryCdmTemplateTableReq(<generated>)
+	at cn.com.ctsi.busiobj.service.impl.BusiTableServiceImpl.queryCdmTemplateTable(BusiTableServiceImpl.java:145)
+	at cn.com.ctsi.busiobj.service.impl.BusiTableServiceImpl$$FastClassBySpringCGLIB$$b4bc2f4e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at cn.com.ctsi.busiobj.aop.logger.AbstractLogAspect.doAround(AbstractLogAspect.java:19)
+	at cn.com.ctsi.busiobj.aop.logger.ServiceLogAspect.aroundController(ServiceLogAspect.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.com.ctsi.busiobj.service.impl.BusiTableServiceImpl$$EnhancerBySpringCGLIB$$40ba2b70.queryCdmTemplateTable(<generated>)
+	at cn.com.ctsi.busiobj.controller.TableController.queryTable(TableController.java:110)
+	at cn.com.ctsi.busiobj.controller.TableController$$FastClassBySpringCGLIB$$f4da836f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at cn.com.ctsi.busiobj.aop.logger.AbstractLogAspect.doAround(AbstractLogAspect.java:19)
+	at cn.com.ctsi.busiobj.aop.logger.ControllerLogAspect.aroundController(ControllerLogAspect.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.com.ctsi.busiobj.controller.TableController$$EnhancerBySpringCGLIB$$bae406ab.queryTable(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1655)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+08:40:39.383 [jetty-25] ERROR c.c.ctsi.busiobj.service.impl.BusiTableServiceImpl - queryCdmTemplateTable异常，调用cdm接口查询业务数据表失败,405 Method Not Allowed
+08:40:39.384 [jetty-25] ERROR cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_0] throw error
+java.lang.Exception: queryCdmTemplateTable异常，调用cdm接口查询业务数据表失败,405 Method Not Allowed
+	at cn.com.ctsi.busiobj.service.impl.BusiTableServiceImpl.queryCdmTemplateTable(BusiTableServiceImpl.java:150)
+	at cn.com.ctsi.busiobj.service.impl.BusiTableServiceImpl$$FastClassBySpringCGLIB$$b4bc2f4e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at cn.com.ctsi.busiobj.aop.logger.AbstractLogAspect.doAround(AbstractLogAspect.java:19)
+	at cn.com.ctsi.busiobj.aop.logger.ServiceLogAspect.aroundController(ServiceLogAspect.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.com.ctsi.busiobj.service.impl.BusiTableServiceImpl$$EnhancerBySpringCGLIB$$40ba2b70.queryCdmTemplateTable(<generated>)
+	at cn.com.ctsi.busiobj.controller.TableController.queryTable(TableController.java:110)
+	at cn.com.ctsi.busiobj.controller.TableController$$FastClassBySpringCGLIB$$f4da836f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at cn.com.ctsi.busiobj.aop.logger.AbstractLogAspect.doAround(AbstractLogAspect.java:19)
+	at cn.com.ctsi.busiobj.aop.logger.ControllerLogAspect.aroundController(ControllerLogAspect.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.com.ctsi.busiobj.controller.TableController$$EnhancerBySpringCGLIB$$bae406ab.queryTable(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1655)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+08:40:39.392 [jetty-25] ERROR cn.com.ctsi.busiobj.controller.TableController - queryTable 异常,queryCdmTemplateTable异常，调用cdm接口查询业务数据表失败,405 Method Not Allowed
+08:40:39.392 [jetty-25] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [ctr_0] response: BaseResponseNoBody{code=0, message='查询cdm实体表失败', timestamp=1532392839392}
+08:40:39.784 [PollingServerListUpdater-0] INFO  com.netflix.config.ChainedDynamicProperty - Flipping property: MainWebApp.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+08:44:27.731 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+08:49:27.737 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+08:54:27.746 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+08:59:27.751 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+09:04:27.759 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+09:09:27.767 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+09:10:20.208 [jetty-61] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [ctr_1] around [class cn.com.ctsi.busiobj.controller.TableController].[queryTable]
+09:10:20.210 [jetty-61] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [ctr_1] arg[0]: QueryTemplateTableRequest{entid=36, tableIds='358'}
+09:10:20.211 [jetty-61] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [ctr_1] arg[1]: org.springframework.validation.BeanPropertyBindingResult: 0 errors
+09:10:20.219 [jetty-61] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_3] around [class cn.com.ctsi.busiobj.service.impl.BusiTableServiceImpl].[queryCdmTemplateTable]
+09:10:20.219 [jetty-61] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_3] arg[0]: QueryTemplateTableRequest{entid=36, tableIds='358'}
+09:10:20.234 [jetty-61] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_4] around [class cn.com.ctsi.busiobj.service.impl.CdmApiServiceImpl].[jointCdmTemplateTableReq]
+09:10:20.235 [jetty-61] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_4] arg[0]: QueryTemplateTableRequest{entid=36, tableIds='358'}
+09:10:20.235 [jetty-61] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_4] arg[1]: 6b85b0848b104b54a2ba6b7999591ebe
+09:10:20.235 [jetty-61] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_4] arg[2]: [per_info_1]
+09:10:20.236 [jetty-61] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_4] response: CdmTemplateTableQueryReq{tableNames=[per_info_1], tableIds='358'}
+09:10:20.236 [jetty-61] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_5] around [class cn.com.ctsi.busiobj.service.impl.CdmApiServiceImpl].[sendQueryCdmTemplateTableReq]
+09:10:20.236 [jetty-61] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_5] arg[0]: CdmTemplateTableQueryReq{tableNames=[per_info_1], tableIds='358'}
+09:10:20.292 [jetty-61] ERROR cn.com.ctsi.busiobj.service.impl.CdmApiServiceImpl - 调用cdm接口查询业务数据表失败,405 Method Not Allowed,请求为CdmTemplateTableQueryReq{tableNames=[per_info_1], tableIds='358'}
+09:10:20.293 [jetty-61] ERROR cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_5] throw error
+java.lang.Exception: 调用cdm接口查询业务数据表失败,405 Method Not Allowed
+	at cn.com.ctsi.busiobj.service.impl.CdmApiServiceImpl.sendQueryCdmTemplateTableReq(CdmApiServiceImpl.java:155)
+	at cn.com.ctsi.busiobj.service.impl.CdmApiServiceImpl$$FastClassBySpringCGLIB$$fc127289.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at cn.com.ctsi.busiobj.aop.logger.AbstractLogAspect.doAround(AbstractLogAspect.java:19)
+	at cn.com.ctsi.busiobj.aop.logger.ServiceLogAspect.aroundController(ServiceLogAspect.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.com.ctsi.busiobj.service.impl.CdmApiServiceImpl$$EnhancerBySpringCGLIB$$bd451439.sendQueryCdmTemplateTableReq(<generated>)
+	at cn.com.ctsi.busiobj.service.impl.BusiTableServiceImpl.queryCdmTemplateTable(BusiTableServiceImpl.java:145)
+	at cn.com.ctsi.busiobj.service.impl.BusiTableServiceImpl$$FastClassBySpringCGLIB$$b4bc2f4e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at cn.com.ctsi.busiobj.aop.logger.AbstractLogAspect.doAround(AbstractLogAspect.java:19)
+	at cn.com.ctsi.busiobj.aop.logger.ServiceLogAspect.aroundController(ServiceLogAspect.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.com.ctsi.busiobj.service.impl.BusiTableServiceImpl$$EnhancerBySpringCGLIB$$40ba2b70.queryCdmTemplateTable(<generated>)
+	at cn.com.ctsi.busiobj.controller.TableController.queryTable(TableController.java:110)
+	at cn.com.ctsi.busiobj.controller.TableController$$FastClassBySpringCGLIB$$f4da836f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at cn.com.ctsi.busiobj.aop.logger.AbstractLogAspect.doAround(AbstractLogAspect.java:19)
+	at cn.com.ctsi.busiobj.aop.logger.ControllerLogAspect.aroundController(ControllerLogAspect.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.com.ctsi.busiobj.controller.TableController$$EnhancerBySpringCGLIB$$bae406ab.queryTable(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1655)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+09:10:20.296 [jetty-61] ERROR c.c.ctsi.busiobj.service.impl.BusiTableServiceImpl - queryCdmTemplateTable异常，调用cdm接口查询业务数据表失败,405 Method Not Allowed
+09:10:20.297 [jetty-61] ERROR cn.com.ctsi.busiobj.aop.logger.AspectLogger - [srv_3] throw error
+java.lang.Exception: queryCdmTemplateTable异常，调用cdm接口查询业务数据表失败,405 Method Not Allowed
+	at cn.com.ctsi.busiobj.service.impl.BusiTableServiceImpl.queryCdmTemplateTable(BusiTableServiceImpl.java:150)
+	at cn.com.ctsi.busiobj.service.impl.BusiTableServiceImpl$$FastClassBySpringCGLIB$$b4bc2f4e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at cn.com.ctsi.busiobj.aop.logger.AbstractLogAspect.doAround(AbstractLogAspect.java:19)
+	at cn.com.ctsi.busiobj.aop.logger.ServiceLogAspect.aroundController(ServiceLogAspect.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.com.ctsi.busiobj.service.impl.BusiTableServiceImpl$$EnhancerBySpringCGLIB$$40ba2b70.queryCdmTemplateTable(<generated>)
+	at cn.com.ctsi.busiobj.controller.TableController.queryTable(TableController.java:110)
+	at cn.com.ctsi.busiobj.controller.TableController$$FastClassBySpringCGLIB$$f4da836f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at cn.com.ctsi.busiobj.aop.logger.AbstractLogAspect.doAround(AbstractLogAspect.java:19)
+	at cn.com.ctsi.busiobj.aop.logger.ControllerLogAspect.aroundController(ControllerLogAspect.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at cn.com.ctsi.busiobj.controller.TableController$$EnhancerBySpringCGLIB$$bae406ab.queryTable(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1655)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+09:10:20.300 [jetty-61] ERROR cn.com.ctsi.busiobj.controller.TableController - queryTable 异常,queryCdmTemplateTable异常，调用cdm接口查询业务数据表失败,405 Method Not Allowed
+09:10:20.302 [jetty-61] INFO  cn.com.ctsi.busiobj.aop.logger.AspectLogger - [ctr_1] response: BaseResponseNoBody{code=0, message='查询cdm实体表失败', timestamp=1532394620302}
